@@ -1,0 +1,78 @@
+div .backposter {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBEYPFvj3dwiVnw7zE0K7Y02dTLDC2rAQ6X8q-eyCtedLOCAypeAGbvQy5hsalDsDuHdmw03F4VPYDhVGPyuFsyYLtrAfHNDVVO_mLED7qud0i23GGyE0Qnkl0HsAWXhh36S8_F4IKzJxJKHVapHDHgpTjkDRuWybOxYOVKrbeNPYEH1_w5Bg7reMf1Q/s1600/notavailable.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #FFFFFF;
+    max-height:300px;
+    min-height:300px;
+}
+  .separators{
+    padding-top:30px;
+  }
+  .content{
+  margin-top:70px;
+  }
+    .watch {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+  .download {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.download:hover {
+  background-color: RoyalBlue;
+}
+  .image-grid div {
+  width: 50%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+    
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:grey;
+}
+
+.image01 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-01.jpg'); }
+.image02 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-02.jpg'); }
+.image03 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-03.jpg'); }
+.image04 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-04.jpg'); }
+.image05 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-05.jpg'); }
+.image06 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-06.jpg'); }
+
+
+@media screen and (max-width: 400px) {
+  .image-grid {display: flex;
+  flex-wrap: wrap;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:grey;
+  }
+  .image-grid div {  width: 50%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+}
